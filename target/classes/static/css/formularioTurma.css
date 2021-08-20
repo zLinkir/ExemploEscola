@@ -1,0 +1,39 @@
+.container{
+	padding: 80px;
+}
+body{
+	background-color: #FFEECA;
+	color: #483849;
+	font-weight: bold;
+}
+
+.navbar{
+	background-color: crimson;
+}
+form{
+	position: absolute;
+	left: 35%;
+}
+.mb-3{
+	
+	width: 100%;
+	
+}
+
+.btn-primary{
+	background-color: #B88900;
+	border-style: none;
+	border-radius: 10px;
+	width: 100%;
+}
+
+#texto{
+	width: 500px; height: 100px; resize: none;
+}
+
+.imagem{
+	position: absolute;
+	width: 40%;
+	left: 60%;
+	bottom: 0%;  
+}
