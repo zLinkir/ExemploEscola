@@ -1,5 +1,5 @@
 .container{
-	padding: 70px;
+	padding: 62px;
 }
 body{
 	background-color: #FFEECA;
@@ -18,3 +18,9 @@ body{
 img#carrousel-imagem{
 	height: 720px;
 }
+ .main-title{
+      color: #444;
+      margin: 0 0 65px 0;
+      font-size: 40px;
+      text-align: center;
+  }
