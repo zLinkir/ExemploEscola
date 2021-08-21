@@ -36,4 +36,14 @@ public class TurmaController {
 		RedirectView rv = new RedirectView();
 		rv.setUrl("/cadastrarTurma");
 		return rv;	}
+
+
+@GetMapping("/turmas")
+public ModelAndView turmas() {
+	ModelAndView mv = new ModelAndView("listaTurmas");
+	Iterable <Turma> turmas = tr.findAll();
+	mv.addObject("turmas", turmas );
+	return mv;
+}
+
 }

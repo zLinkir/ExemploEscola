@@ -38,6 +38,10 @@ public class Turma {
 		alunos = new ArrayList<Aluno>();
 	}
 	
+	public Turma() {
+		
+	}
+	
 	public Long getIdTurma() {
 		return idTurma;
 	}
