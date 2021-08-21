@@ -1,0 +1,20 @@
+.container{
+	padding: 70px;
+}
+body{
+	background-color: #FFEECA;
+	color: #483849;
+	font-weight: bold;
+}
+
+.carousel-item h5{
+    font-size: 40pt;
+}
+.carousel-item p{
+    font-size: 20pt;
+    color: white;
+}
+
+img#carrousel-imagem{
+	height: 720px;
+}
